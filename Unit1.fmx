@@ -1,0 +1,183 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 748
+  ClientWidth = 1003
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Bottom
+    Margins.Bottom = 10.000000000000000000
+    Position.Y = 312.000000000000000000
+    Size.Width = 1003.000000000000000000
+    Size.Height = 426.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object MemResult1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 46.000000000000000000
+      Size.Width = 119.000000000000000000
+      Size.Height = 380.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 115.000000000000000000
+      Viewport.Height = 376.000000000000000000
+    end
+    object Codigo: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 227.000000000000000000
+      Position.Y = 46.000000000000000000
+      Size.Width = 102.000000000000000000
+      Size.Height = 380.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Viewport.Width = 98.000000000000000000
+      Viewport.Height = 376.000000000000000000
+    end
+    object MemResult2: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 139.000000000000000000
+      Position.Y = 46.000000000000000000
+      Size.Width = 78.000000000000000000
+      Size.Height = 380.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Viewport.Width = 74.000000000000000000
+      Viewport.Height = 376.000000000000000000
+    end
+    object Musica: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 627.000000000000000000
+      Position.Y = 46.000000000000000000
+      Size.Width = 366.000000000000000000
+      Size.Height = 380.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Viewport.Width = 362.000000000000000000
+      Viewport.Height = 376.000000000000000000
+    end
+    object Cantor: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 339.000000000000000000
+      Position.Y = 46.000000000000000000
+      Size.Width = 278.000000000000000000
+      Size.Height = 380.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Viewport.Width = 274.000000000000000000
+      Viewport.Height = 376.000000000000000000
+    end
+    object Text1: TText
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 50.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 943.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'TOTAL DE ITENS:'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = xFFFA3C3C
+      TextSettings.HorzAlign = Leading
+    end
+  end
+  object Button1: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Executar URL'
+    OnClick = Button1Click
+  end
+  object MemResponse: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 8.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 985.000000000000000000
+    Size.Height = 213.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 981.000000000000000000
+    Viewport.Height = 209.000000000000000000
+  end
+  object Parse: TButton
+    Position.X = 144.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Parse'
+    OnClick = ParseClick
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 7
+    Text = 
+      'https://sheets.googleapis.com/v4/spreadsheets/1_IAPJpnRv7asd4aaP' +
+      '0kC1ZylonHGI/values/B1:B27685?majorDimension=COLUMNS&key=K2021ke' +
+      'iteste123sdasd548'
+    Position.X = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 983.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object SpeedButton1: TSpeedButton
+    Position.X = 912.000000000000000000
+    Position.Y = 48.000000000000000000
+    StyleLookup = 'trashtoolbuttonbordered'
+    Text = 'Limpar'
+    OnClick = SpeedButton1Click
+  end
+  object RESTClient1: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'utf-8, *;q=0.8'
+    Params = <>
+    RaiseExceptionOn500 = False
+    Left = 176
+    Top = 24
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <>
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 312
+    Top = 24
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'application/json'
+    Left = 440
+    Top = 24
+  end
+end

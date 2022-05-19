@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/22 18:19:49.000.147,=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/23 10:12:11.000.725,=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/23 11:35:57.000.626,C:\PROJETOS\FMX\Api GoogleSheets\Unit1.pas=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/23 11:35:57.000.626,C:\PROJETOS\FMX\Api GoogleSheets\Unit1.fmx=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2021/04/23 11:35:59.000.126,C:\PROJETOS\FMX\Api GoogleSheets\Project1.dproj=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="ZF52352C7D" Android64="Nexus_6_API_30"/>
+	</ActiveMobileDevice>
+</BorlandProject>
